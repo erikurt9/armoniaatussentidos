@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Breathe</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Permite el apilamiento vertical en móvil */
+}
+
+.product-details {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-details img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.details h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details ul li {
+    padding: 5px 0;
+    color: #666;
+}
+
+.buy-button {
+    background-color: #47cbff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e5533d;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .details h3 {
+        font-size: 20px;
+    }
+
+    .details ul li {
+        font-size: 14px;
+    }
+
+    .buy-button {
+        width: 100%; /* Hace que el botón ocupe todo el ancho en móviles */
+        font-size: 16px; /* Ajusta el tamaño de fuente del botón */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(55, 144, 218, 0.76);" class="product-details">
+        <img src="./assets/img/breathe sin fondo.png" alt="Breathe">
+        <h2>Breathe</h2>
+        <p class="description">Breathe es una mezcla de aceites esenciales diseñada para proporcionar un alivio respiratorio y una sensación de frescura. Esta poderosa fórmula combina aceites como el eucalipto, la menta y el árbol de té, que juntos trabajan para abrir las vías respiratorias y facilitar la respiración.</p>
+
+        <div class="details">
+            <h3>Beneficios Clave:</h3>
+            <ul>
+                <li><strong>Respiración Mejorada:</strong> Promueve una respiración clara y cómoda.</li>
+                <li><strong>Propiedades Relajantes:</strong> Ayuda a calmar y reducir la tensión.</li>
+                <li><strong>Aroma Refrescante:</strong> Su fragancia mentolada y herbal proporciona una sensación refrescante y revitalizante.</li>
+                <li><strong>Versatilidad:</strong> Ideal para usar en difusores, inhaladores personales o aplicarlo tópicamente con un aceite portador.</li>
+            </ul>
+            
+            <h3>Uso Sugerido:</h3>
+            <ul>
+                <li>Agrega unas gotas a tu difusor para facilitar la respiración en cualquier momento del día.</li>
+                <li>Aplica en el pecho o en las muñecas para disfrutar de su aroma refrescante.</li>
+                <li>Usa en un inhalador personal para llevar sus beneficios a donde vayas.</li>
+            </ul>
+
+            <h3>Precauciones:</h3>
+            <ul>
+                <li>Evitar el contacto directo con los ojos y las membranas mucosas.</li>
+                <li>Diluir con un aceite portador para uso tópico en pieles sensibles.</li>
+            </ul>
+        </div>
+
+        <h3>Conclusión:</h3>
+        <p>Incorpora Breathe en tu rutina diaria para disfrutar de una respiración más clara y cómoda. Su mezcla de aceites esenciales ofrece beneficios respiratorios y un aroma revitalizante, convirtiéndolo en un aliado ideal para tu bienestar. Es una adición indispensable en cualquier hogar.</p>
+        
+        <button class="buy-button">Comprar Ahora</button>
+        <a href="index.html" class="back-button">Regresar</a>
+    </div>
+</body>
+</html>
